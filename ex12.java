@@ -5,10 +5,10 @@ public class ex12 {
     private Deque<Object> deque;
     private int maxSize;
 
-  public ex12(int maxSize) {
-    this.maxSize = maxSize;
-    deque = new ArrayDeque<>(maxSize);
-  }
+    public ex12(int maxSize) {
+        this.maxSize = maxSize;
+        deque = new ArrayDeque<>(maxSize);
+    }
 
     public void enqueue(Object obj) throws QueueFullException {
         if (deque.size() == maxSize) {

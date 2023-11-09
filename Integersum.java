@@ -1,7 +1,7 @@
 import java.util.StringTokenizer;
 import java.util.Scanner;
 
-public class IntegerSum {
+public class Integersum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a line of integers separated by spaces: ");
@@ -15,6 +15,7 @@ public class IntegerSum {
             System.out.println("Integer: " + num);
             sum += num;
         }
+        sc.close();
 
         System.out.println("Sum of all integers: " + sum);
     }

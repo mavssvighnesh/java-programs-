@@ -1,4 +1,3 @@
-import java.util.*;
 
 class demo {
     int val1;

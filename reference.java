@@ -1,4 +1,3 @@
-import java.io.StringBufferInputStream;
 
 class deepak {
     void show() {
@@ -47,8 +46,6 @@ class reference {
          */
         v = m;
         v.show();
-        
-       
-    
+
     }
 }

@@ -39,7 +39,7 @@ class triangle extends abstractclass {
 
 class main {
 
-    public static void main(Strings [] ) {
+    public static void main(String[] args) {
 
         abstractclass ob;
         rectangle r = new rectangle(10, 11);

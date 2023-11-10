@@ -1,4 +1,3 @@
-package sumanth;
 
 class print {
     String name;

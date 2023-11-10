@@ -6,6 +6,7 @@ public class primenumber {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the range u want to find the prime numbers");
         high = sc.nextInt();
+        sc.close();
 
         while (low < high) {
             boolean flag = false;

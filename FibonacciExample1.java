@@ -9,6 +9,7 @@ class FibonacciExample1 {
         System.out.println("enter the range of the fibonacci series required");
 
         count = sc.nextInt();
+        sc.close();
 
         System.out.print(n1 + " " + n2);// printing 0 and 1
 
